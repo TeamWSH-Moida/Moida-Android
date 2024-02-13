@@ -1,4 +1,4 @@
-package com.example.presentation.theme
+package com.example.wsh_aos.theme
 
 import android.app.Activity
 import android.os.Build

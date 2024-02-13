@@ -1,43 +1,56 @@
 plugins {
-    id("com.android.library")
-    id("org.jetbrains.kotlin.android")
+    id(Dependency.Gradle.LIBRARY)
+    id(Dependency.Gradle.KOTLIN)
 }
 
 android {
-    namespace = "com.example.presentation"
-    compileSdk = 33
+    namespace = ProjectProperties.NameSpace.PRESENTATION
+    compileSdk = ProjectProperties.Versions.COMPILE_SDK
 
     defaultConfig {
-        minSdk = 24
+        minSdk = ProjectProperties.Versions.MIN_SDK
 
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-        consumerProguardFiles("consumer-rules.pro")
+        testInstrumentationRunner = ProjectProperties.Test.TEST_RUNNER
+        consumerProguardFiles(ProjectProperties.Files.CONSUMER_PROGUARD_FILES)
     }
 
     buildTypes {
         release {
             isMinifyEnabled = false
             proguardFiles(
-                getDefaultProguardFile("proguard-android-optimize.txt"),
-                "proguard-rules.pro"
+                getDefaultProguardFile(ProjectProperties.Files.DEFAULT_PROGUARD_FILES),
+                ProjectProperties.Files.PROGUARD_FILES
             )
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = ProjectProperties.Versions.JAVA_VERSION
+        targetCompatibility = ProjectProperties.Versions.JAVA_VERSION
     }
     kotlinOptions {
-        jvmTarget = "1.8"
+        jvmTarget = ProjectProperties.Versions.JVM_TARGET
     }
 }
 
 dependencies {
+    implementation(project(":domain"))
 
-    implementation("androidx.core:core-ktx:1.9.0")
-    implementation("androidx.appcompat:appcompat:1.6.1")
-    implementation("com.google.android.material:material:1.11.0")
-    testImplementation("junit:junit:4.13.2")
-    androidTestImplementation("androidx.test.ext:junit:1.1.5")
-    androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+    implementation(Dependency.AndroidX.CORE_KTX)
+    implementation(Dependency.AndroidX.LIFECYCLE)
+
+    implementation(Dependency.Compose.ACTIVITY_COMPOSE)
+    implementation(platform(Dependency.Compose.COMPOSE_BOM))
+    implementation(Dependency.Compose.COMPOSE)
+    implementation(Dependency.Compose.COMPOSE_GRAPHICS)
+    implementation(Dependency.Compose.COMPOSE_PREVIEW)
+    implementation(Dependency.Compose.COMPOSE_MATERIAL3)
+    implementation(Dependency.Compose.COMPOSE_MATERIAL)
+    debugImplementation(Dependency.Compose.COMPOSE_TOOLING)
+
+    testImplementation(Dependency.Test.JUNIT)
+    androidTestImplementation(Dependency.Test.ANDROID_JUNIT)
+    androidTestImplementation(Dependency.Test.ESPRESSO)
+    androidTestImplementation(platform(Dependency.Compose.COMPOSE_BOM))
+    androidTestImplementation(Dependency.Test.COMPOSE_JUNIT)
+    debugImplementation(Dependency.Test.COMPOSE_MANIFEST)
 }
