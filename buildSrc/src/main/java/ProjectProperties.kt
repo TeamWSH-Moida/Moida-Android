@@ -17,7 +17,7 @@ object ProjectProperties {
     }
 
     object Versions {
-        const val COMPILE_SDK = 34
+        const val COMPILE_SDK = 33
         const val MIN_SDK = 26
         const val TARGET_SDK = 34
         const val JVM_TARGET = "1.8"
@@ -33,5 +33,6 @@ object ProjectProperties {
         const val DOMAIN = "com.example.domain"
         const val DATA = "com.example.data"
         const val APP = "com.example.wsh_aos"
+        const val DI = "com.example.di"
     }
 }

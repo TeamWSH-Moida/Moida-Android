@@ -48,6 +48,7 @@ dependencies {
     implementation(project(":data"))
     implementation(project(":presentation"))
     implementation(project(":domain"))
+    implementation(project(":di"))
 
     implementation(Dependency.AndroidX.CORE_KTX)
     implementation(Dependency.AndroidX.LIFECYCLE)
@@ -61,6 +62,8 @@ dependencies {
     implementation(Dependency.Compose.COMPOSE_MATERIAL3)
     androidTestImplementation(platform(Dependency.Compose.COMPOSE_BOM))
     debugImplementation(Dependency.Compose.COMPOSE_TOOLING)
+
+    implementation(Dependency.Koin.KOIN_COMPOSE)
 
     testImplementation(Dependency.Test.JUNIT)
     androidTestImplementation(Dependency.Test.ANDROID_JUNIT)
