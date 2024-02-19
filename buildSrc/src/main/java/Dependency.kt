@@ -49,6 +49,10 @@ object Dependency {
         const val KOIN_VIEWMODEL = "io.insert-koin:koin-androidx-viewmodel:${Versions.KOIN}"
     }
 
+    object Ktlint {
+        const val KTLINT = "org.jlleitschuh.gradle.ktlint"
+    }
+
     object Test {
         const val JUNIT = "junit:junit:${Versions.JUNIT}"
         const val ANDROID_JUNIT = "androidx.test.ext:junit:${Versions.ANDROID_JUNIT}"
