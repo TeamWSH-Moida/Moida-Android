@@ -25,16 +25,28 @@ object Dependency {
     object Google {
         const val MATERIAL = "com.google.android.material:material:${Versions.MATERIAL}"
 
-        // HILT or KOIN
         // FIREBASE
     }
 
-    object Libraries {
+    object Coil {
+        const val COIL = "io.coil-kt:coil-compose:${Versions.COIL}"
+    }
+
+    object Retrofit {
         const val RETROFIT = "com.squareup.retrofit2:retrofit:${Versions.RETROFIT}"
         const val RETROFIT_CONVERTER_GSON = "com.squareup.retrofit2:converter-gson:${Versions.RETROFIT}"
+    }
+
+    object OkHttp {
         const val OKHTTP = "com.squareup.okhttp3:okhttp:${Versions.OKHTTP}"
         const val OKHTTP_LOGGING_INTERCEPTOR = "com.squareup.okhttp3:logging-interceptor:${Versions.OKHTTP}"
-        const val COIL = "io.coil-kt:coil-compose:${Versions.COIL}"
+    }
+
+    object Koin {
+        const val KOIN_COMPOSE = "io.insert-koin:koin-androidx-compose:${Versions.KOIN}"
+        const val KOIN_CORE = "io.insert-koin:koin-core:${Versions.KOIN}"
+        const val KOIN_ANDROID = "io.insert-koin:koin-android:${Versions.KOIN}"
+        const val KOIN_VIEWMODEL = "io.insert-koin:koin-androidx-viewmodel:${Versions.KOIN}"
     }
 
     object Test {

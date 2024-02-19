@@ -23,4 +23,6 @@ object Versions {
     const val OKHTTP = "4.10.0"
 
     const val COIL = "2.4.0"
+
+    const val KOIN = "3.5.3"
 }
