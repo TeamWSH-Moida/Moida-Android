@@ -25,6 +25,4 @@ object Versions {
     const val COIL = "2.4.0"
 
     const val KOIN = "3.5.3"
-
-    const val KTLINT = "11.3.1"
 }
