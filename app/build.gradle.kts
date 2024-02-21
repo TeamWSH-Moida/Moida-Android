@@ -60,6 +60,7 @@ dependencies {
     implementation(Dependency.Compose.COMPOSE_PREVIEW)
     implementation(Dependency.Compose.COMPOSE_MATERIAL)
     implementation(Dependency.Compose.COMPOSE_MATERIAL3)
+    implementation(Dependency.Compose.COMPOSE_NAVIGATION)
     androidTestImplementation(platform(Dependency.Compose.COMPOSE_BOM))
     debugImplementation(Dependency.Compose.COMPOSE_TOOLING)
 
