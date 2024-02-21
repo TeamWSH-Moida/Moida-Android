@@ -1,6 +1,6 @@
 object Versions {
 
-    const val GRADLE = "7.4.2"
+    const val GRADLE = "8.2.0"
     const val KOTLIN = "1.8.10"
 
     const val COMPOSE = "1.4.3"
@@ -9,7 +9,7 @@ object Versions {
     const val COMPOSE_MATERIAL = "1.4.3"
     const val COMPOSE_MATERIAL3 = "1.1.1"
     const val COMPOSE_BOM = "2023.03.00"
-    const val COMPOSE_NAVIGATION = "2.7.7"
+    const val COMPOSE_NAVIGATION = "2.7.6"
 
     const val LIFECYCLE = "2.3.1"
     const val CORE_KTX = "1.5.0"
