@@ -1,4 +1,4 @@
-package com.example.wsh_aos.theme
+package com.example.mogak_android.theme
 
 import android.app.Activity
 import android.os.Build

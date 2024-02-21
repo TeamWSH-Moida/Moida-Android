@@ -1,4 +1,4 @@
-package com.example.wsh_aos.theme
+package com.example.mogak_android.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
