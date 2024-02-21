@@ -13,7 +13,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "WSH-AOS"
+rootProject.name = "Mogak-Android"
 include(":app")
 include(":data")
 include(":domain")

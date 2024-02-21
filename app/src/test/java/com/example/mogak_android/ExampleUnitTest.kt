@@ -1,4 +1,4 @@
-package com.example.wsh_aos
+package com.example.mogak_android
 
 import org.junit.Test
 
