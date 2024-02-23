@@ -35,6 +35,20 @@ android {
 dependencies {
     implementation(project(":domain"))
 
+    // retrofit
+    implementation(Dependency.Retrofit.RETROFIT)
+    implementation(Dependency.Retrofit.RETROFIT_CONVERTER_GSON)
+
+    // Okhttp
+    implementation(Dependency.OkHttp.OKHTTP)
+    implementation(Dependency.OkHttp.OKHTTP_LOGGING_INTERCEPTOR)
+
+    //Koin
+    implementation(Dependency.Koin.KOIN_ANDROID)
+    implementation(Dependency.Koin.KOIN_COMPOSE)
+    //implementation(Dependency.Koin.KOIN_VIEWMODEL)
+    //implementation(Dependency.Koin.KOIN_CORE)
+
     implementation(Dependency.AndroidX.CORE_KTX)
     implementation(Dependency.AndroidX.APPCOMPAT)
     implementation(Dependency.Google.MATERIAL)
