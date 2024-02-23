@@ -46,8 +46,8 @@ dependencies {
     //Koin
     implementation(Dependency.Koin.KOIN_ANDROID)
     implementation(Dependency.Koin.KOIN_COMPOSE)
-    implementation(Dependency.Koin.KOIN_VIEWMODEL)
-    implementation(Dependency.Koin.KOIN_CORE)
+    //implementation(Dependency.Koin.KOIN_VIEWMODEL)
+    //implementation(Dependency.Koin.KOIN_CORE)
 
     implementation(Dependency.AndroidX.CORE_KTX)
     implementation(Dependency.AndroidX.APPCOMPAT)
