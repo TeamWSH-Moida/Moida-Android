@@ -34,6 +34,6 @@ object ProjectProperties {
         const val DATA = "com.example.data"
         const val APP = "com.example.mogak_android"
         const val DI = "com.example.di"
-        const val DESIGN_SYSTEM = "design_system"
+        const val DESIGN_SYSTEM = "com.example.design_system"
     }
 }
