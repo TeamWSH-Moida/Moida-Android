@@ -1,4 +1,4 @@
-package com.example.mogak_android
+package com.example.moida_android
 
 import org.junit.Test
 
