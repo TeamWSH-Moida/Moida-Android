@@ -32,7 +32,7 @@ object ProjectProperties {
         const val PRESENTATION = "com.example.presentation"
         const val DOMAIN = "com.example.domain"
         const val DATA = "com.example.data"
-        const val APP = "com.example.mogak_android"
+        const val APP = "com.example.moida_android"
         const val DI = "com.example.di"
         const val DESIGN_SYSTEM = "com.example.design_system"
     }
