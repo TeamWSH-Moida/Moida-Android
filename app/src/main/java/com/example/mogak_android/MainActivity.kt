@@ -11,6 +11,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.core.view.WindowCompat
+import com.example.design_system.foundation.MoidaDesignSystemTheme
 import com.example.mogak_android.theme.WSHAOSTheme
 
 class MainActivity : ComponentActivity() {
@@ -18,7 +19,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         WindowCompat.setDecorFitsSystemWindows(window,false)
         setContent {
-            WSHAOSTheme {
+            MoidaDesignSystemTheme {
                 MogakApp()
             }
         }
