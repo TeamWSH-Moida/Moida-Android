@@ -21,6 +21,7 @@ object Dependency {
         const val COMPOSE_GRAPHICS = "androidx.compose.ui:ui-graphics:${Versions.COMPOSE}"
         const val COMPOSE_BOM = "androidx.compose:compose-bom:${Versions.COMPOSE_BOM}"
         const val COMPOSE_NAVIGATION = "androidx.navigation:navigation-compose:${Versions.COMPOSE_NAVIGATION}"
+        const val COMPOSE_FOUNDATION = "androidx.compose.foundation:foundation:{${Versions.COMPOSE_FOUNDATION}"
     }
 
     object Google {
