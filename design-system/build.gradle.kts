@@ -44,6 +44,11 @@ dependencies {
     implementation(Dependency.AndroidX.APPCOMPAT)
     implementation(Dependency.Google.MATERIAL)
 
+    testImplementation(Dependency.Test.JUNIT)
+    androidTestImplementation(Dependency.Test.ANDROID_JUNIT)
+    androidTestImplementation(Dependency.Test.COMPOSE_JUNIT)
+
+
     implementation(Dependency.Compose.COMPOSE)
     implementation(Dependency.Compose.COMPOSE_FOUNDATION)
     implementation(platform(Dependency.Compose.COMPOSE_BOM))
