@@ -1,4 +1,4 @@
-package com.example.mogak_android.navigation
+package com.example.moida_android.navigation
 
 import androidx.navigation.NavController
 import androidx.navigation.NavGraphBuilder

@@ -13,7 +13,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Mogak-Android"
+rootProject.name = "Moida-Android"
 include(":app")
 include(":data")
 include(":domain")
