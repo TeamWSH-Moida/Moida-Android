@@ -30,10 +30,17 @@ android {
     kotlinOptions {
         jvmTarget = ProjectProperties.Versions.JVM_TARGET
     }
+    buildFeatures {
+        compose = true
+    }
+    composeOptions {
+        kotlinCompilerExtensionVersion = ProjectProperties.Versions.KOTLIN_COMPILER_EXTENSION
+    }
 }
 
 dependencies {
     implementation(project(":domain"))
+    implementation(project(":design-system"))
 
     implementation(Dependency.AndroidX.CORE_KTX)
     implementation(Dependency.AndroidX.LIFECYCLE)
@@ -45,6 +52,7 @@ dependencies {
     implementation(Dependency.Compose.COMPOSE_PREVIEW)
     implementation(Dependency.Compose.COMPOSE_MATERIAL3)
     implementation(Dependency.Compose.COMPOSE_MATERIAL)
+    implementation(Dependency.Compose.COMPOSE_NAVIGATION)
     debugImplementation(Dependency.Compose.COMPOSE_TOOLING)
 
     testImplementation(Dependency.Test.JUNIT)
