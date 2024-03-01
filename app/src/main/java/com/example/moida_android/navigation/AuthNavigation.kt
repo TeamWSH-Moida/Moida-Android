@@ -3,14 +3,16 @@ package com.example.moida_android.navigation
 import androidx.navigation.NavController
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.navigation
+import com.example.presentation.splash.navigation.NAVIGATION_SPLASH
+import com.example.presentation.splash.navigation.splash
 
 const val NAVIGATION_AUTH = "auth"
 
 internal fun NavGraphBuilder.authNavigation(navController: NavController) {
     navigation(
         route = NAVIGATION_AUTH,
-        startDestination = "",
+        startDestination = NAVIGATION_SPLASH,
     ) {
-
+        splash(onMoveNext = { })
     }
 }
