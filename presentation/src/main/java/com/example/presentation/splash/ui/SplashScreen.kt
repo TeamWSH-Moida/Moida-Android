@@ -5,11 +5,13 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import com.example.design_system.foundation.MoidaTheme
 import com.example.presentation.R
+import kotlinx.coroutines.delay
 
 @Composable
 internal fun Splash(
@@ -32,9 +34,9 @@ private fun SplashScreen(
             painter = painterResource(id = R.drawable.ic_app_name),
             contentDescription = "app_name",
         )
-        /*LaunchedEffect(Unit) {
+        LaunchedEffect(Unit) {
             delay(2000)
             onMoveNext()
-        }*/
+        }
     }
 }
