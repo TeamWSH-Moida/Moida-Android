@@ -32,7 +32,7 @@ object MoidaTypography {
             fontFamily = PretendardFamily,
             fontSize = 30.sp,
             fontWeight = FontWeight.SemiBold,
-            lineHeight = 120.sp,
+            lineHeight = 36.sp,
             platformStyle = platformTextStyle,
             color = MoidaTheme.colors.onBackground,
         )
@@ -42,7 +42,7 @@ object MoidaTypography {
             fontFamily = PretendardFamily,
             fontSize = 26.sp,
             fontWeight = FontWeight.SemiBold,
-            lineHeight = 120.sp,
+            lineHeight = 31.sp,
             platformStyle = platformTextStyle,
             color = MoidaTheme.colors.onBackground,
         )
@@ -52,7 +52,7 @@ object MoidaTypography {
             fontFamily = PretendardFamily,
             fontSize = 20.sp,
             fontWeight = FontWeight.SemiBold,
-            lineHeight = 130.sp,
+            lineHeight = 26.sp,
             platformStyle = platformTextStyle,
             color = MoidaTheme.colors.onBackground,
         )
@@ -62,7 +62,7 @@ object MoidaTypography {
             fontFamily = PretendardFamily,
             fontSize = 18.sp,
             fontWeight = FontWeight.SemiBold,
-            lineHeight = 140.sp,
+            lineHeight = 25.sp,
             platformStyle = platformTextStyle,
             color = MoidaTheme.colors.onBackground,
         )
@@ -72,7 +72,7 @@ object MoidaTypography {
             fontFamily = PretendardFamily,
             fontSize = 16.sp,
             fontWeight = FontWeight.SemiBold,
-            lineHeight = 140.sp,
+            lineHeight = 22.4.sp,
             platformStyle = platformTextStyle,
             color = MoidaTheme.colors.onBackground,
         )
@@ -82,7 +82,7 @@ object MoidaTypography {
             fontFamily = PretendardFamily,
             fontSize = 16.sp,
             fontWeight = FontWeight.Normal,
-            lineHeight = 140.sp,
+            lineHeight = 22.sp,
             platformStyle = platformTextStyle,
             color = MoidaTheme.colors.onBackground,
         )
@@ -92,7 +92,7 @@ object MoidaTypography {
             fontFamily = PretendardFamily,
             fontSize = 14.sp,
             fontWeight = FontWeight.Normal,
-            lineHeight = 140.sp,
+            lineHeight = 20.sp,
             platformStyle = platformTextStyle,
             color = MoidaTheme.colors.onBackground,
         )
